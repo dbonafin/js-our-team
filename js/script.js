@@ -64,7 +64,7 @@ for(let i = 0; i < membersArray.length; i++) {
             <div>${thisMember.role}</div>
         </div>
     </div>
-    `;s
+    `;
 
     // Append the team-member-card to the teamContainer in the DOM
     teamContainer.innerHTML += memberCard;
